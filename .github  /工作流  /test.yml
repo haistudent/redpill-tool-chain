@@ -87,7 +87,7 @@ jobs:
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/mpt2sas
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/mptspi
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/mvsas
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/tools
+          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/tree/main/iavf
       - name: 添加扩展驱动[dva3221]
         if: matrix.platform == 'dva3221'
         run: |
